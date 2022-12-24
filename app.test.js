@@ -11,9 +11,10 @@ describe('Users', () => {
         expect(response.body).toEqual(
           expect.arrayContaining([
             expect.objectContaining({
-              id: expect.any(Number),
+              id: expect.any(String),
               name: expect.any(String),
               email: expect.any(String),
+              password: expect.any(String),
             }),
           ])
         )
