@@ -1,0 +1,2 @@
+{"level":"fatal","message":"MongoServerError: Authentication failed.","timestamp":"2022-12-24T16:36:53.973Z"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2022-12-24T16:37:35.267Z"}
